@@ -16,14 +16,13 @@
 #
 
 development:
-  development:
   adapter: mysql2
   database: PioneerworksNavi_development
   username: root
   password:
   host: localhost
   socket: /tmp/mysql.sock
-
+  port: 5432
 test:
   adapter: mysql
   database: PioneerworksNavi_test
