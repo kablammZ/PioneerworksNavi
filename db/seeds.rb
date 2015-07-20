@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+seed_file = File.join(Rails.root, 'config', 'seed.yml')
+config = YAML::load_file(seed_file)
+Event.create(config["events"])
+
+puts "Seed successful! Onward with development sir!"

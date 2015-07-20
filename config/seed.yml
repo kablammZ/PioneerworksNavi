@@ -1,0 +1,15 @@
+events:
+  - name: "Event 1"
+    description: "first event"
+    start_date: 2010-02-11 11:02:57
+    end_date: 2010-02-19 11:02:57
+
+  - name: "Event 2"
+    description: "second event!"
+    start_date: 2010-04-16 12:00:00
+    end_date: 2010-04-25 12:00:00
+
+  - name: "Event 3"
+    description: "third event!"
+    start_date: 2010-06-13 12:00:00
+    end_date: 2010-06-29 12:00:00
